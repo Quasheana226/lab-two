@@ -1,0 +1,97 @@
+:root {
+  --color-yellow: hsl(47, 898%, 63%);
+  --color-white: hsl(0, 0%, 100%);
+  _color-gray-500: hsl(0, 0%, 50%);
+  --color-gray-950: hsl(0, 0%, 10%);
+
+  font-family: "figtree", sans-serif;
+  font-weight: 500, 800;
+  font-size-bold: 800;
+
+  width-mobile: 375px;
+  width-desktop: 1440px;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: var(--color-yellow);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  color: var(--color-gray-950);
+  background-color: var(--color-white);
+}
+.card {
+  background-color: var(--color-white);
+  border-radius: 20px;
+  border: 1px solid var(--color-gray-950);
+  box-shadow: 0 25px 25px rgba(0, 0, 0, 0.5);
+  max-width: var(--width-mobile);
+  text-align: center;
+  padding: 45px;
+}
+
+.card img {
+  width: 100%;
+  border-radius: 15px;
+  display: block;
+}
+
+.learning {
+  background-color: var(--color-yellow);
+  padding: 4px 12px;
+  border-radius: 4px;
+  font-weight: var(font-weight-bold);
+  font-size: 14px;
+  display: inline;
+  margin: 24px 0 18px;
+}
+
+
+date{
+    color: var(--color-gray-500);
+    font-size: 14px;
+}
+
+h1 {
+    color: var(--color-gray-950);
+    font-size: 28px;
+    font-weight: var(--font-weight-bold);
+}
+
+h1 a:hover {
+    color: var(--color-yellow);
+}
+
+.paragraph {
+    color: var(--color-gray-500);
+    font-size: 15px;
+    line-height: 1.5;
+    font-weight: var(--font-weight-normal);
+    margin: 24px 0 18px;
+}
+
+.author {
+   display: flex;
+   align-items: center;
+   gap: 12px;
+
+}
+
+.author img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    display: block;
+}
+
+.name {
+    font-weight: var(--font-weight-bold)
+    font-size: 14px;
+}
